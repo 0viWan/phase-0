@@ -47,3 +47,18 @@ rm - ‘remove file’ is to do exactly as such.  rm + the file name to be delet
 help - ‘man in Unix’ is the way to access the manual that provides a cheatsheet for all the commands listed above and more.
 
 # 1.3 Forking and Cloning Reflection
+In order to create a repository you first have to logged into your GitHub account.
+
+Once on your home screen navigate to the top right corner of the screen and next your avatar there should be a plus sign “+” that you can click on to create a new repository. 
+
+On this page next to the ‘owner’ field there is a field where you can designate the name of the repository.  Below that you have the option to provide a description of the repository, setting its status to either ‘public’ (anyone can see the repository but you have the choice of who can commit to it) or ‘private’ (you choose who can see AND commit to it), and add a licensing agreement to it as once. (to review, a ‘commit’ is a collection of actions done to a file in version control that are tracked and submitted at once.  This can be anything altering the state of the file, such as copying, editing, or moving it).  Once done you can click ‘create repository’ to complete the form.
+
+“Forking” is process done on GitHub which allows the user to copy the propriety work of someone else over to your username, thereby delivering a editable version of the work without affecting the original.  This is great assurance for open-source projects that allow individuals to play and experiment with the code without the fear of destroying the source. You now have the option of using, building off of, or altering that code. In order to do this there is a ‘fork’ button on the repository page, which from there you can choose which user you would like to fork the work over to. 
+
+Now that this forked work is in your repository you have the option of cloning it.  Cloning to your computer will give you a local file to work with.  There is a clone URL where you are first able to copy that page’s link. 
+
+After copying this URL go to your command line.  Here you can ‘cd’  (change directory) or ‘mkdir’ (make directory) to the directory of your choosing to place the files of this repository.  Once you are in your desired location type in: git clone followed by the pasted URL from Github. 
+
+After hitting enter you may be prompted for you username and password.  If not you should now have the files cloned over.  You can list the directory (ls) in order to verify you have everything ported over from Github.  Congratulate yourself with a good old pat on the back!
+
+I think my main struggles with getting git and Github setup was with the former, navigating the steps to make sure git was up and running on my computer.  With the later, having never used GitHub before I had to face the learning curve of being introduced to a new interface.  Luckily it is well designed and I am feeling more comfortable toggling with Github and seeing what different things do.  One of the prompts with this course asked for the user to delete the repo they forked over from DBC and fork it over again; I ended up doing some research on what it means to delete in GitHub because there were some scary warnings regarding the deletion of repository in the "settings" field.  I am glad I didn't break anything :-)  Also now having git setup I am feeling way more confident practicing what I have learned regarding the language of the command line; totally useful!
