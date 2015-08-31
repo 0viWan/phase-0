@@ -2,6 +2,7 @@
 
 - **_What are the 6 Phases of Web Design?_**
 
+
 -  Information Gathering: This may be the most critical step in the process because it largely sets the framework for a website/app’s design, honing in on the purpose and end goal a company is ultimately trying to achieve.  During this stage you are analyzing things such as the purpose and goal of the intended site/app, who is person using it, and what kind of content will be provided to better accommodate the user.
 -  Planning:  A ‘site map’ is the key element made in this phase. This is a structured map listing out all the content (topics and sub-topics) that will be included in the design. This is integral to the architecture of the site/app as you are forming a clear path your users will eventually navigate when they use your service.  This is also the time to decide what technologies will be incorporated such as a ‘content management system like WordPress.  
 -  Design:  Aesthetics! This is when you get to make your app/site look and feel nifty with sensible design choices.  A designer will make prototypes and mockups of what the site/app will ultimately look like keeping in mind factors such as intended audience and the desired identity wish to be portrayed by the company.
