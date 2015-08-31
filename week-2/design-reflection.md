@@ -1,4 +1,4 @@
-![Site Map](/phase-0/week-2/imgs/site-map.png)
+![Site Map](/0viWan/phase-0/tree/master/week-2/imgs/site-map.png)
 
 - **_What are the 6 Phases of Web Design?_**
 
