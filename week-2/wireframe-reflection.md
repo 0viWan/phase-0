@@ -1,5 +1,6 @@
-![Alt txt](https://gomockingbird.com/projects/nhxn6i0/4gXVnC)
-![Alt txt](https://gomockingbird.com/projects/nhxn6i0/TnMd3U)
+![Home Page](https://gomockingbird.com/projects/nhxn6i0/4gXVnC)
+
+![Blog Index](https://gomockingbird.com/projects/nhxn6i0/TnMd3U)
 
 ""_What is a wireframe?_""
 
