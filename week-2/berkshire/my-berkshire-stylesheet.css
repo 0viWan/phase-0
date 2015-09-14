@@ -1,0 +1,114 @@
+html {
+	background-color: #ffffff;
+}
+
+body {
+	color: #000080; /*navy*/
+}
+
+a {
+	color: #800080; /*purple*/
+}
+
+a:visited {
+	color: #ff0000; /*red*/
+}
+
+#image {
+	
+   content:url(http://www.mickeyxtreme.com/images1/news%202009/52909Warren%20Buffett.jpg);
+   
+}
+
+.column-1 {
+	width: 50%;
+	float: left;
+}
+
+.column-2 {
+	width: 50%;
+	float: right;
+}
+
+footer {
+	clear: both;
+}
+
+.small {
+	font-size: 0.6em;
+	color: black;
+
+}
+
+li{
+  margin: 30px;
+}
+
+#title {
+	font-weight: bolder;
+	font-size: 110%;
+	font-family: Georgia;
+
+}
+
+.center {
+	text-align: center;
+	margin: 2px;
+}
+
+.big {
+	font-size: 200%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.footer {
+	text-align: center;
+	font-size: 0.6em;
+}
+
+/*
+
+1) When linking an external file like a stylesheet to HTML,
+it is very important that you have the correct corresponding
+file path entered in the HTML, if the two separate files are not contained within 
+the same directory. It is also important that the stylesheet has
+the correct labeling ala ".css" in its title.
+They are joined together by the 'link'-tag in the 'head' subsection
+of your HTML document.
+
+2) The tricks I used for positioning of my document involved a lot of experimentation;
+I definitely had to be fearless in my approach and not be afraid to Google
+search more effective positioning elements. That said, I think I had a had a lot
+of guidance from my guide Matt Higgins, as well as the knowledge I obtained
+from the CodeAcademy courses. Knowing how to use elements such as 'absolute'
+'float' and 'clear', as well as how to group together parts of your page using
+CSS selectors such as "id" and "class" was also vital to getting the correct
+positioning of elements on the page.
+
+3) I used all the typical CSS elements to change the size, color, font, as in 
+respectively: "font-size: 0.6em", "color: #ffffff", and "font-family: Georgia".
+That combined with the appropriate CSS selectors would correctly apply the 
+changes to the HTML file.
+
+4) I did use IDs and Classes in my CSS; The purpose of using classes is so
+you can apply changes to various different elements in your HTML by only having
+to write the code in CSS once. This is way more efficient and makes all
+your code more organized and ultimately easier to read. IDs are used when
+you want only stylize an element once, so it will have a unique set of
+parameters in CSS that get used 1X. 
+
+5) Honestly I think that my code compared to the source code looked a lot
+cleaner. It seems like the source code had a lot of inline styling done
+in the root HTML, and though that is ok, it is generally best
+practice to separate your formatting elements from the HTML architecture.
+They ended up looking pretty darn similiar, so I think I did nearly the same thing
+with code that looks a little easier to read. 
