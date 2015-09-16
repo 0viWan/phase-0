@@ -42,3 +42,5 @@ I don't like say it, but I hated this challenge. I found it incredibly and unnec
 <img src = "imgs/7-Header.png" alt = "Header">
 
 <img src = "imgs/8-Sidebar.png" alt = "Sidebar">
+
+<img src = "imgs/9-Get_Creative.png" alt = "Creative">
