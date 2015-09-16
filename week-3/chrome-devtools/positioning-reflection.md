@@ -33,6 +33,8 @@ I don't like say it, but I hated this challenge. I found it incredibly and unnec
 
 <img src = "imgs/3-Row.png" alt = "Row">
 
+<img src = "imgs/4-Make_Equidistant.png" alt = "Equidistant">
+
 <img src = "imgs/5-Squares.png" alt = "Squares">
 
 <img src = "imgs/6-Footer.png" alt = "Footer">
