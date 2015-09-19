@@ -37,6 +37,8 @@ Local variables are variables designated by the programmer that start with a low
 
 This was a fairly straightforward challenge that was a good primer to Ruby and review of the basics. I think that the directions were very clear and the required reading is well thought-out in its explanation of the concepts and syntax of Ruby.
 
-(exercise 1)[https://github.com/0viWan/phase-0/blob/master/week-4/defining-variables.rb]
-(exercise 2)[https://github.com/0viWan/phase-0/blob/master/week-4/simple-string.rb]
-(exercise 3)[https://github.com/0viWan/phase-0/blob/master/week-4/basic-math.rb]
+[exercise 1](https://github.com/0viWan/phase-0/blob/master/week-4/defining-variables.rb)
+
+[exercise 2](https://github.com/0viWan/phase-0/blob/master/week-4/simple-string.rb)
+
+[exercise 3](https://github.com/0viWan/phase-0/blob/master/week-4/basic-math.rb)
