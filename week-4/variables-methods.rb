@@ -16,7 +16,7 @@ puts "But " + better_number.to_s + " is such a bigger and better number! Maybe t
 =begin A local variable is defined initially by a lower case letter or an underscore
 proceeded by the rest of the word, and followed by an equal sign. For example ,
 ' my_name = "Ovi" ' is how you can define a variable.'
-=end
+=end 
 
 # How do you define a method?
 =begin A method is defind
