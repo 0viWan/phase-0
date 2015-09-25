@@ -22,7 +22,5 @@ def valid_triangle?(a, b, c)
   	return true
   else
   	return true #scalene
-  	
-
-
-end
+  end
+  end
