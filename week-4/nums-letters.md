@@ -4,15 +4,21 @@
 
 - The difference betwen float and integer division is that arithmetic with floats (hence division) will yield output with decimal points, while those with integers will yield whole numbers without the decimal placing. Computers will also always round down when it can't get an exact whole number in integer division. To better understand this let's say you have $9 in your wallet and you want to go buy a hot dog on the streets of The Mission. Those greasy, delicious hot dogs cost $4, so how many hot dogs can you buy? If this were float division the answer would be "2.5", but since you can't buy half a hot dog (though this does sometimes sound appealing) the integer division answer would be that you could buy "2" hot dogs with the nine bucks you have.
 
-...
+```ruby
 
 puts 24*365
-...
+puts "(or #{24*366} on occasion)"
+# if it's a leap year
 
-...
+```
 
-puts 60*24*365.25*10
-...
+```ruby
+
+puts 60*24*(365*10 + 2)
+"(or #{60*24*(365*10 +3)} on ocassion)"
+# if it's a leap year
+
+``` 
 
 - How does Ruby handle addition, subtraction, multiplication, and division of numbers?
 
