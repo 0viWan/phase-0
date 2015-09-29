@@ -12,20 +12,9 @@ fav_num = gets.chomp.to_i
 better_number = fav_num + 1
 puts "But " + better_number.to_s + " is such a bigger and better number! Maybe this should be your fave.."
 
-# How do you define a local variable?
-=begin A local variable is defined initially by a lower case letter or an underscore
-proceeded by the rest of the word, and followed by an equal sign. For example ,
-' my_name = "Ovi" ' is how you can define a variable.'
-=end 
 
-# How do you define a method?
-=begin A method is defind
-# What is the difference between a local variable and a method?
-#How do you run a ruby program from the command line?
-#How do you run an RSpec file from the command line?
-#What was confusing about this material? What made sense?
-=======
-=begin How do you define a local variable?
+
+=begin -How do you define a local variable?
 
 In order to store a string for later use in a program, you need to give a string a name.
 When you assign a label to a string, the label itself is known as a "variable".
@@ -36,7 +25,7 @@ were to assign a string to a variable, one example might be my_string = 'cats'.
 
 How do you define a method?
 
-A method is defined first by the word "def" followed by the name assigned as the variable.
+-A method is defined first by the word "def" followed by the name assigned as the variable.
 This name follows the same rules for assigning a variable, as in the answer above.
 The variable name is followed in parentheses by the arguments of the variable, and then
 the method itself. Once the method is designed, it is closed out by the word "end".
@@ -46,7 +35,7 @@ Here is an example: def print_name (first_name, last_name)
 									end
 You can now call the method 'print_name'
 
-What is the difference between a local variable and a method?
+-What is the difference between a local variable and a method?
 
 A local variable is one that is declared within a method in Ruby. They can only be
 referenced and used locally in the method they are declared in. Explicitly, code outside a method
@@ -55,14 +44,14 @@ that exists only from the 'method call' to the 'method return'; Between the call
 you can not save the values in local variables, so once they've been used, that is it.
 
 
-How do you run a ruby program from the command line?
+-How do you run a ruby program from the command line?
 
 In the command line navigate to the directory that has the ruby file that you are 
 trying to execute. Once you are there, and if ruby is properly installed as an
 interpreted language on your computer, you should be able in the terminal to type:
 "ruby" followed by the 'file path name'.rb to run the ruby program.
 
-How do you run an RSpec file from the command line?
+-How do you run an RSpec file from the command line?
 
 To properly run an RSpec file from the command line, first navigate to the proper 
 directory holding the .rb (Ruby) file that you are trying to analyze and debug for errors.
@@ -72,7 +61,7 @@ noting the number of ten ran, and the amount of failures. If you get '0' failure
 congratulations, your file is good to go. If you get a message saying that '0 examples,
 0 failures', then you did not run the proper RSpec file with the test parameters.
 
-What was confusing about this material? What made sense?
+-What was confusing about this material? What made sense?
 
 I was having trouble with the RSpec loading, and when it did I often would get
 bizzare messages that I would have to look up; I spent time verifying my code and 
@@ -85,5 +74,8 @@ touble getting the write method and string syntax for the challenge where
 we had to deliver a return address in one line, but after getting the proper order 
 and spacing of the method, it finally ran.
 
+Exercise 1 (Return A Formatted Address): https://github.com/0viWan/phase-0/blob/master/week-4/address/my_solution.rb
 
->>>>>>> addreflection
+Exercise 2 (Defining Math Methods): https://github.com/0viWan/phase-0/blob/master/week-4/math/my_solution.rb
+
+=end
