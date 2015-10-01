@@ -1,0 +1,47 @@
+header {
+    background-color: blue;
+ 
+}
+ 
+
+body {
+    background-image: url("http://i.stack.imgur.com/oaWJU.png");
+}
+
+h1 {
+    font-weight: 900;
+    text-align: center;
+}
+
+h2 {
+    font-family: Courier;
+    text-align: center;
+}
+
+
+.column-1 {
+    background-color: yellow;
+    float: left;
+    /* display: inline-block; */
+    width: 45%;
+    /* vertical-align: top; */
+    padding : 9px;
+    border: 1px solid black;
+}
+
+.column-2 {
+    background-color: red;
+    float: right;
+    /* display: inline-block; */
+    width: 45%;
+    /* vertical-align: top; */
+    padding: 9px;
+    border: 1px solid black;
+    
+}
+
+footer {
+    background-color : purple;
+    clear: both;
+    
+}
