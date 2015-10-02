@@ -12,5 +12,16 @@
 
 #Your Solution Below
 def shortest_string(list_of_words)
-  # Your code goes here!
+  return nil if list_of_words.length == 0
+
+  short_stuff = list_of_words[0]
+
+  list_of_words[1..-1].each do |word|
+  	if word.length < short_stuff.length
+  	   word = short_stuff
+  	end
 end
+return short_stuff
+end
+
+  
