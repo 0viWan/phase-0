@@ -6,8 +6,12 @@
 # Your Solution Below
 
 # my_info is empty to start.  Edit this!
-my_info = {}
-
+my_info = {
+  :first_name => "Ovi",
+  :last_name => "Calvo",
+  :hometown => "San Francisco",
+  :age => 30
+}
 
 
 
