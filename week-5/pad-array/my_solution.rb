@@ -80,10 +80,11 @@ def pad(array, min_size, value = nil) #non-destructive
    p new_array
  end
 end
-  
+
 =end
 
 # 3. Refactored Solution
+=begin
 
 def pad!(array, min_size, value = nil) #destructive
   x= (min_size - array.length)
@@ -100,7 +101,7 @@ end
   return new_array
 end
 
-
+=end
 # 4. Reflection
 =begin
 
@@ -134,12 +135,40 @@ destrucitve method.
 Was your initial solution successful at passing the tests? If so, why do you think that is? 
 If not, what were the errors you encountered and what did you do to resolve them?
 
+Our initial solution did not pass the tests. Though most of the syntax was logical for our destructive
+method, we had simply made minor errors: We did not close out the method properly with 'end', and we also 
+used parentheses instead of brackets for appending the values to the array. These issues were solved
+easily by reading the respective error messages, going to the appropriate line of code, and then reworking
+it to get no failures when we re-ran the program. We encountered more issues with our program with the 
+non-destructive method, and spent a lot of time rethinking our logical approach to adding to an array without making it
+destructive. What finally worked was creating a new array object in the method, that would take the contents of the 
+original array object, and allow to permanently pad the array without destroying the original. We also realized after
+receiving an error message that we had to '.flatten' this new array to "smooth" it out and create one "whole" array (as 
+opposed to arrays within the array); our code finally ran after we employed the .flatten method.
+
 When you refactored, did you find any existing methods in Ruby to clean up your code?
+
+In the answers above, I included two refactored solutions, one of which I prefer and included as my "#1 Initial Solution"
+I didn't find it necessary to utilize another RubyDocs method, since the ".times" enumerator method was sufficient and I was
+able to edit down the code so the ".flatten" method wasn't even needed any more. I prefer brevity with ample clarity;
+there isn't a real need for me at least to dress it up when this works perfectly well. I didn't find anything in Ruby Docs
+that was directly applicable to the objective at hand.
 
 How readable is your solution? Did you and your pair choose descriptive variable names?
 
+The solution is very readable, and I also included comments for my own sake just so I can refer back to what is going
+on and the thought process behind the method. We chose descriptive variable names but kept them as simplistic as possible
+for the overall progression and flow of the program. 
+
 What is the difference between destructive and non-destructive methods in your own words?
 
+Destructive methods (indicated by a "bang", '!') are methods that are marked as permanently modifing the receiver. This
+means that if a "bang method" is called (some_method!), the function of the methods will alter the objects they are 
+acting upon to essentially overide the original objects as altogether new objects (based on what the method function
+is telling the object to do. Though these methods are labeled as being "destructive" that term may be a bit harsh;
+destructive methods indicated with a "!" are also meant just to be a casual heads-up for the respective change
+in the syntax of your program. This is the opposite for non-destructive methods; those preserve the receiving objects 
+and do not permanently affect the receiver.
 =end
 
 
