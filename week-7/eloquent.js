@@ -54,7 +54,25 @@ console.log(board)
 
 // Complete the `minimum` exercise.
 
+var min = function(arg1, arg2) {
+	if (arg1 < arg2)
+		return arg1;
+	else if (arg2 < arg1)
+		return arg2;
+	else
+		return false;
+}
 
 
 // Data Structures: Objects and Arrays
 // Create an object called "me" that stores your name, age, 3 favorite foods, and a quirk below.
+
+var me = {
+	name: "Ovi",
+	age: 30,
+	favFood1: "Saba Shioyaki",
+	favFood2: "Spaghetti and Meatballs",
+	favFood3: "Peking Duck",
+	quirk: "I'm a huge Star Wars nerd."
+}
+}
