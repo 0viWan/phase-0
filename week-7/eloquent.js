@@ -75,4 +75,3 @@ var me = {
 	favFood3: "Peking Duck",
 	quirk: "I'm a huge Star Wars nerd."
 }
-}
