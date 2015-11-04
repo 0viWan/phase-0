@@ -129,6 +129,63 @@ defined in the class.
 
 What concept did you most solidify in this challenge?
 Refactoring for DRYness, using and calling on hashes, the scope of instance variables
+
+class VirusPredictor
+  # initialzes the class with three arguments in the parentheses. Defined instance variables for instances of the class
+  # using the arguments.
+  def initialize(state_of_origin)
+    @state = state_of_origin
+    @population = STATE_DATA[@state][:population]
+    @population_density = STATE_DATA[@state][:population_density]
+  end
+  # runs two methods when called, those being: 'predicted_deaths' and 'speed_of_speed'. Their arguments are the instance variables of the class.
+  def virus_effects
+    puts "#{@state} will lose #{predicted_deaths} people in this outbreak and will spread across the state in #{speed_of_spread} months.\n\n"
+  end
+
+  private
+
+  # this predicted_deaths method takes the population_density, population, and state name as arguments.
+  # It models the expected death toll by taking instances of the individual population densities, and comparing
+  # conditionally how big that value is, and depending on size multiplies it by a float-decimal. This value
+  # is also rounded to the nearest whole integer less than or equal to the float using the .floor method
+  def predicted_deaths
+    # predicted deaths is solely based on population density
+    case @population_density
+    when (50..200) 
+      (@population * (@population_density / 50) * 0.1).floor
+    when (0..49)
+      (@population * 0.05).floor
+    else
+      (@population * 0.4).floor
+    end
+  end
+  
+  # this speed_of_speed method takes two arguments: population_density and state. This calculates the speed 
+  #(measured in months) it will take the disease to spread. The method takes the instance variable @population_density
+  #and depending on its size will output an integer (in months) of how long it will take.
+  def speed_of_spread #in months
+    # We are still perfecting our formula here. The speed is also affected
+    # by additional factors we haven't added into this functionality.
+    
+   case @population_density 
+    when (50..200)
+      2.5 - ((@population_density.floor / 50) * 0.5)
+    when (0..49)
+      2.5
+    else
+      0.5
+    end
+  end
+
+end
+
+# alaska = VirusPredictor.new("Alaska", STATE_DATA["Alaska"][:population_density], STATE_DATA["Alaska"][:population])
+# alaska.virus_effects
+# alaska.speed_of_spread
+
+STATE_DATA.each do |state, data|
+  VirusPredictor.new(state).virus_effects
+end
+
 =end
-
-
